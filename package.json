@@ -1,0 +1,41 @@
+{
+  "name": "screen-voice-capture-summary",
+  "version": "0.1.0",
+  "description": "Electron app for capturing screen audio, transcribing it with OpenAI Whisper, and summarizing it with OpenAI.",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "check": "node --check main.js && node --check preload.js && node --check renderer.js && node --check license-hashes.js",
+    "build": "electron-builder --win"
+  },
+  "build": {
+    "appId": "com.screenvoice.capture.summary",
+    "productName": "Screen Voice Capture and Summary",
+    "files": [
+      "main.js",
+      "preload.js",
+      "renderer.js",
+      "license-hashes.js",
+      "index.html"
+    ],
+    "win": {
+      "target": [
+        {
+          "target": "nsis",
+          "arch": [
+            "x64"
+          ]
+        }
+      ]
+    },
+    "nsis": {
+      "oneClick": false,
+      "perMachine": false,
+      "deleteAppDataOnUninstall": false
+    }
+  },
+  "devDependencies": {
+    "electron": "^40.8.0",
+    "electron-builder": "^25.0.0"
+  }
+}
