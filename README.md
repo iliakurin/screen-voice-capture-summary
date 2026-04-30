@@ -1,4 +1,5 @@
 # Screen Voice Capture and Summary
+<img width="950" height="576" alt="image" src="https://github.com/user-attachments/assets/447ed948-84c2-43b2-96c6-5b6e9c72d8e1" />
 
 Screen Voice Capture and Summary is a lightweight desktop app for turning screen audio into clean, useful text.
 
