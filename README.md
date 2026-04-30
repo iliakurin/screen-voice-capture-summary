@@ -29,7 +29,7 @@ After creating the key, paste it into the **OpenAI API key** field in the app se
 
 ## Get Access
 
-To continue using the app after the trial period, get a license key here:
+!To continue using the app after the trial period, get a license key here +  Portable release (.exe):
 
 [Get access](https://kurinova.gumroad.com/l/kwytfs)
 
