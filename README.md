@@ -63,20 +63,4 @@ Run the app:
 npm start
 ```
 
-Run a syntax check:
 
-```bash
-npm run check
-```
-
-Build for Windows:
-
-```bash
-npm run build
-```
-
-## License Keys
-
-The app contains only hashed license keys for validation. Real license keys should be kept private and should not be committed to the repository.
-
-Keep `PRIVATE_LICENSE_KEYS_DO_NOT_SHIP.txt` outside public distribution.
